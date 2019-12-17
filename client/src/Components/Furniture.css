@@ -1,0 +1,19 @@
+#furnitureRow {
+  margin-top: 35%;
+  margin-left: 10%;
+}
+
+#bedCard {
+  padding: 5%;
+  border-radius: 25px;
+}
+
+#bedImg {
+  width: 350px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+#bedImg:hover {
+  opacity: 0.5;
+}
