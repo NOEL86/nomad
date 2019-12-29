@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState, useRef, useEffect } from "react";
 // import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import M from "materialize-css";
@@ -12,17 +12,10 @@ class Nav extends Component {
 
   componentDidMount() {
     M.AutoInit();
-
-    var myNav = document.getElementById("nav");
-    window.onscroll = function() {
-      "use strict";
-      if (document.body.scrollTop >= 200) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
-      } else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
-      }
+    window.onscroll = () => {
+      const nav = document.querySelector("#nav");
+      if (this.scrollY <= 500) nav.className = "";
+      else nav.className = "scroll";
     };
   }
   render() {

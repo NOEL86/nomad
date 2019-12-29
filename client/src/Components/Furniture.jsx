@@ -30,7 +30,7 @@ class Furniture extends Component {
                       alt="Mission Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -48,7 +48,7 @@ class Furniture extends Component {
                       alt="Ranch Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -66,7 +66,7 @@ class Furniture extends Component {
                       alt="Placitas Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -93,7 +93,7 @@ class Furniture extends Component {
                       alt="Mission Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -111,7 +111,7 @@ class Furniture extends Component {
                       alt="4 Poster Mission Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -129,7 +129,7 @@ class Furniture extends Component {
                       alt="Pecos Oak Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -156,7 +156,7 @@ class Furniture extends Component {
                       alt="Pecos Lite Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -174,7 +174,7 @@ class Furniture extends Component {
                       alt="Extra bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -192,7 +192,7 @@ class Furniture extends Component {
                       alt="Sandia bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -219,7 +219,7 @@ class Furniture extends Component {
                       alt="Full Moon Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -237,7 +237,7 @@ class Furniture extends Component {
                       alt="Rainbow Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -255,7 +255,7 @@ class Furniture extends Component {
                       alt="Sandia Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -282,7 +282,7 @@ class Furniture extends Component {
                       alt="Taos Twin Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -300,7 +300,7 @@ class Furniture extends Component {
                       alt="Taos Bed + Table"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -318,7 +318,7 @@ class Furniture extends Component {
                       alt="Pinon Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -345,7 +345,7 @@ class Furniture extends Component {
                       alt="Vista Maple Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -363,7 +363,7 @@ class Furniture extends Component {
                       alt="Vista Oak Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         {" "}
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
@@ -381,7 +381,7 @@ class Furniture extends Component {
                       alt="Vista Mesa Bed"
                     />
                     <div className="overlay">
-                      <div class="text">
+                      <div className="text">
                         <div className="row">
                           <h6>Vista Mesa Bed</h6>
                           <h6>Price: $255</h6>

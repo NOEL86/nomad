@@ -18,6 +18,7 @@ class Main extends Component {
       <div id="main">
         <div id="container" className="img">
           <img id="mainImg" src="../images/bedStock.jpg" />
+          {/* <Nav /> */}
           <Nav />
         </div>
         <Furniture />

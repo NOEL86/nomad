@@ -1,5 +1,5 @@
 #nav {
-  background-color: transparent !important;
+  background-color: transparent;
   color: black;
   overflow: hidden;
   position: fixed;
@@ -21,3 +21,15 @@
 #logoImg {
   width: 150px;
 }
+
+#nav.scroll {
+  background-color: white;
+}
+/* #nav.scroll a {
+  color: white;
+} */
+
+/* #nav.scroll #logo {
+  background-color: white;
+  border-radius: 1em;
+} */
