@@ -15,48 +15,58 @@ class Footer extends Component {
   render() {
     return (
       <footer className="page-footer">
-        <div className="container">
+        <div id="Contact" className="container">
           <div className="row">
             <div className="col l6 s12">
-              <h5 className="white-text">Footer Content</h5>
-              <p className="grey-text text-lighten-4">
-                You can use rows and columns here to organize your footer
-                content.
-              </p>
+              <h5>Contact Us</h5>
+              <a
+                className="white-text"
+                href="mailto:info@nomadfurniture.com?Subject=Nomad%20Order"
+                target="_top"
+              >
+                <h6>info@nomadfurniture.com</h6>
+              </a>
+              <h6 className="white-text">phone 801-452-5860</h6>
+              <div className="row">
+                <img id="sMedia" src="../images/facebook.svg" alt="facebook" />
+                <img id="sMedia" src="../images/instagram.svg" alt="insta" />
+              </div>
             </div>
+
             <div className="col l4 offset-l2 s12">
-              <h5 className="white-text">Links</h5>
+              <h5 className="white-text">Furniture</h5>
               <ul>
                 <li>
                   <a className="grey-text text-lighten-3" href="#!">
-                    Link 1
+                    Type 1
                   </a>
                 </li>
                 <li>
                   <a className="grey-text text-lighten-3" href="#!">
-                    Link 2
+                    Type 2
                   </a>
                 </li>
                 <li>
                   <a className="grey-text text-lighten-3" href="#!">
-                    Link 3
+                    Type 3
                   </a>
                 </li>
                 <li>
                   <a className="grey-text text-lighten-3" href="#!">
-                    Link 4
+                    Type 4
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
+
         <div className="footer-copyright">
           <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">
+            © 2020 Copyright Nomad Furniture
+            {/* <a className="grey-text text-lighten-4 right" href="#!">
               More Links
-            </a>
+            </a> */}
           </div>
         </div>
       </footer>

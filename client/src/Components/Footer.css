@@ -1,3 +1,9 @@
 .page-footer {
   background-color: rgb(27, 53, 73) !important;
 }
+
+#sMedia {
+  width: 40px;
+  padding: 5px;
+  margin-top: 2%;
+}

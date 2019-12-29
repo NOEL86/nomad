@@ -1,19 +1,59 @@
 #furnitureRow {
-  margin-top: 35%;
+  margin-top: 20%;
   margin-left: 10%;
 }
 
 #bedCard {
   padding: 5%;
-  border-radius: 25px;
+  border-radius: 1.5em;
 }
 
 #bedImg {
-  width: 350px;
-  height: 300px;
-  border-radius: 25px;
+  max-width: 350px;
+  min-height: 250px;
+  display: block;
+  /* width: 100%;
+  height: auto; */
+  border-radius: 1.5em;
 }
 
-#bedImg:hover {
-  opacity: 0.5;
+.imageContainer {
+  position: relative;
+  width: 50%;
+}
+
+/* .image {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 350px;
+  min-height: 250px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(70, 38, 16);
+  border-radius: 1.5em;
+}
+
+.imageContainer:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
