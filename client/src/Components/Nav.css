@@ -5,10 +5,12 @@
   position: fixed;
   top: 0;
   z-index: 999;
+  padding: 10px;
 }
 
 #nav a {
   color: black;
+  font-size: 1.5rem;
 }
 
 #nav a:hover {
@@ -19,17 +21,18 @@
   padding: 10px;
 }
 #logoImg {
-  width: 150px;
+  width: 180px;
 }
 
 #nav.scroll {
   background-color: white;
+  height: 85px;
 }
 /* #nav.scroll a {
   color: white;
 } */
 
-/* #nav.scroll #logo {
-  background-color: white;
+#nav.scroll #logo {
+  /* background-color: white; */
   border-radius: 1em;
-} */
+}

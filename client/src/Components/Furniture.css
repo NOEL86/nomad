@@ -3,6 +3,10 @@
   margin-left: 10%;
 }
 
+#fLink {
+  font-size: 3rem;
+}
+
 #bedCard {
   padding: 5%;
   border-radius: 1.5em;

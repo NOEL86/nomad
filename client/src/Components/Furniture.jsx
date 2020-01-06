@@ -11,10 +11,10 @@ class Furniture extends Component {
   componentDidMount() {}
   render() {
     return (
-      <div id="fLink">
+      <div>
         <div id="furnitureRow" className="row">
           <div className="col s12 m12 l12">
-            <h5 id="furniture">Furniture</h5>
+            <h5 id="fLink">Furniture</h5>
           </div>
         </div>
 

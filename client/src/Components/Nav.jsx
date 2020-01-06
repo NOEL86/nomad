@@ -14,7 +14,8 @@ class Nav extends Component {
     M.AutoInit();
     window.onscroll = () => {
       const nav = document.querySelector("#nav");
-      if (this.scrollY <= 500) nav.className = "";
+
+      if (window.scrollY <= 500) nav.className = "nav-extended";
       else nav.className = "scroll";
     };
   }
@@ -28,7 +29,7 @@ class Nav extends Component {
           </Link>
           <ul className="right hide-on-med-and-down">
             <li>
-              <Link to="/#fLink">Furniture</Link>
+              <Link to="/#furnitureRow">Furniture</Link>
             </li>
             <li>
               <Link to="/#Contact">Contact</Link>
