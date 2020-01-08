@@ -19,7 +19,7 @@ class Furniture extends Component {
         </div>
 
         <div className="row">
-          <div className="col s12 m12 l12">
+          <div className="col s12">
             <div id="bedCard" className="card">
               <div className="row">
                 <div className="col s12 m4 l4">
