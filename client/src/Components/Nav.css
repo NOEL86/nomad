@@ -36,3 +36,9 @@
   /* background-color: white; */
   border-radius: 1em;
 }
+
+@media screen and (max-width: 600px) {
+  #nav {
+    height: 85px;
+  }
+}
