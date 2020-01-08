@@ -296,7 +296,7 @@ class Furniture extends Component {
                   <div className="imageContainer">
                     <img
                       id="bedImg"
-                      src="../images/OakTalos+table.jpeg"
+                      src="https://images.squarespace-cdn.com/content/v1/516edf49e4b0f564b2ab5dbb/1479242899275-VSP597IPLTDSH01FG8NL/ke17ZwdGBToddI8pDm48kA23-LYghCg-jfKD1rZEqcEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dhfE4xhzX12biq6f4rN7fUp5Y-qHbe0ax1O7wSvbemBYP7cJNZlDXbgJNE9ef52e8w/image-asset.jpeg?format=500w"
                       alt="Taos Bed + Table"
                     />
                     <div className="overlay">
