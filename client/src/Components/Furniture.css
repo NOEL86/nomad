@@ -16,6 +16,7 @@
 #bedImg {
   width: 350px;
   height: 250px;
+  display: block;
   padding: 5px;
   border-radius: 1.5em;
   box-shadow: 0 4px 6px 0 black;
@@ -25,7 +26,7 @@
   position: relative;
   cursor: pointer;
   margin-left: 10%;
-  padding: 5%;
+
   /* width: 50%; */
 }
 
@@ -35,6 +36,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+
   width: 350px;
   height: 250px;
   opacity: 0;
@@ -66,7 +68,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  #bedImg {
+  #bedImg,
+  .overlay {
     margin-bottom: 10%;
   }
   .imageContainer {
