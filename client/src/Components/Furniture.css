@@ -25,6 +25,7 @@
   position: relative;
   cursor: pointer;
   margin-left: 10%;
+  padding: 5%;
   /* width: 50%; */
 }
 
@@ -67,6 +68,12 @@
 @media screen and (max-width: 600px) {
   #bedImg {
     margin-bottom: 10%;
+  }
+  .imageContainer {
+    margin-left: 0;
+  }
+  .row {
+    margin-bottom: 0 !important;
   }
 }
 
