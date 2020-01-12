@@ -3,6 +3,7 @@ import Nav from "../Components/Nav";
 import "./css/main.css";
 import Furniture from "../Components/Furniture";
 import Footer from "../Components/Footer";
+import Dimensions from "../Components/Dimensions";
 
 class Main extends Component {
   state = {};
@@ -22,6 +23,7 @@ class Main extends Component {
           <Nav />
         </div>
         <Furniture />
+        <Dimensions />
         <Footer />
       </div>
     );
