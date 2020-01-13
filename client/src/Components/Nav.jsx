@@ -32,7 +32,7 @@ class Nav extends Component {
               <Link to="/#furnitureRow">Furniture</Link>
             </li>
             <li>
-              <Link to="/#Contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="#">About</Link>
