@@ -1,11 +1,16 @@
 #nav {
   background-color: transparent;
   color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   z-index: 999;
   padding: 10px;
+  min-height: 90px;
+}
+
+#dropdown1 {
+  width: auto !important;
 }
 
 #nav a {
@@ -39,7 +44,7 @@
 
 @media screen and (max-width: 600px) {
   #nav {
-    height: 85px;
+    /* height: 90px; */
     background-color: white !important;
   }
 }

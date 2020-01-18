@@ -7,3 +7,9 @@
   padding: 5px;
   margin-top: 2%;
 }
+
+@media only screen and (max-width: 600px) {
+  #flex {
+    display: flex !important;
+  }
+}

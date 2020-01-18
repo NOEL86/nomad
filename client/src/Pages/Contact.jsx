@@ -6,10 +6,8 @@ import "./css/contact.css";
 class Contact extends Component {
   state = {};
 
-  componentDidMount() {}
-
-  componentDidUpdate() {
-    // console.log("made it to function");
+  componentDidMount() {
+    console.log("contact page loaded");
   }
 
   render() {
@@ -17,18 +15,18 @@ class Contact extends Component {
       <div id="contact">
         <Nav />
         <div id="contactInfo" className="row">
-          <div className="col s12 m3">
-            <p>Contact Us</p>
+          <div className="col s12 m4 offset-m4">
+            {/* <p>Contact Us</p> */}
             <p>Nomad Furniture</p>
             <a
-              className="white-text"
+              className="black-text"
               href="mailto:info@nomadfurniture.com?Subject=Nomad%20Info"
               target="_top"
             >
               <p>info@nomadfurniture.com</p>
             </a>
             <a
-              className="white-text"
+              className="black-text"
               href="mailto:Orders@nomadfurniture.com?Subject=Nomad%20Order"
               target="_top"
             >

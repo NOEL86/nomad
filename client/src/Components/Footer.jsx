@@ -27,7 +27,7 @@ class Footer extends Component {
                 <h6>info@nomadfurniture.com</h6>
               </a>
               <h6 className="white-text">phone 801-452-5860</h6>
-              <div className="row">
+              <div id="flex" className="row">
                 <img id="sMedia" src="../images/facebook.svg" alt="facebook" />
                 <img id="sMedia" src="../images/instagram.svg" alt="insta" />
               </div>
