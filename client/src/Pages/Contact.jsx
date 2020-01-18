@@ -20,8 +20,20 @@ class Contact extends Component {
           <div className="col s12 m3">
             <p>Contact Us</p>
             <p>Nomad Furniture</p>
-            <p>Orders@nomadfurniture.com</p>
-            <p>Info@nomadfurniture.com</p>
+            <a
+              className="white-text"
+              href="mailto:info@nomadfurniture.com?Subject=Nomad%20Info"
+              target="_top"
+            >
+              <p>info@nomadfurniture.com</p>
+            </a>
+            <a
+              className="white-text"
+              href="mailto:Orders@nomadfurniture.com?Subject=Nomad%20Order"
+              target="_top"
+            >
+              <p>Orders@nomadfurniture.com</p>
+            </a>
             <p>Phone 801-452-5860</p>
           </div>
         </div>

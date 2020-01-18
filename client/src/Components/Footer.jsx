@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import M from "materialize-css";
 import "./Footer.css";
 
@@ -21,7 +21,7 @@ class Footer extends Component {
               <h5>Contact Us</h5>
               <a
                 className="white-text"
-                href="mailto:info@nomadfurniture.com?Subject=Nomad%20Order"
+                href="mailto:info@nomadfurniture.com?Subject=Nomad%20Info"
                 target="_top"
               >
                 <h6>info@nomadfurniture.com</h6>

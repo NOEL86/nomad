@@ -1,10 +1,11 @@
 #furnitureRow {
-  margin-top: 20% !important;
+  /* margin-top: 20% !important; */
   margin-left: 10% !important;
+  padding-bottom: 5%;
 }
 
 #fLink {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #bedImg {
@@ -20,6 +21,7 @@
   position: relative;
   cursor: pointer;
   margin-left: 10%;
+  margin: 5%;
 
   /* width: 50%; */
 }

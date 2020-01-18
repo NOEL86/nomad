@@ -18,7 +18,7 @@ class Main extends Component {
     return (
       <div id="main">
         <div id="container" className="img">
-          <img id="mainImg" src="../images/bedStock.jpg" />
+          <img id="mainImg" src="../images/bedStock.jpg" alt="bedroom main" />
           {/* <Nav /> */}
           <Nav />
         </div>

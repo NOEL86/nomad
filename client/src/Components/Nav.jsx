@@ -1,4 +1,4 @@
-import React, { Component, useState, useRef, useEffect } from "react";
+import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import M from "materialize-css";
@@ -14,12 +14,17 @@ class Nav extends Component {
     M.AutoInit();
     window.onscroll = () => {
       const nav = document.querySelector("#nav");
-
       if (window.scrollY <= 500) nav.className = "nav-extended";
       else nav.className = "scroll";
+      console.log(window.scrollY);
     };
   }
   render() {
+    const scrollWithOffset = el => {
+      const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+      const yOffset = -90;
+      window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+    };
     return (
       // <div>
       <nav id="nav" className="nav-extended">
@@ -29,7 +34,9 @@ class Nav extends Component {
           </Link>
           <ul className="right hide-on-med-and-down">
             <li>
-              <Link to="/#furnitureRow">Furniture</Link>
+              <Link to="/#furnitureRow" scroll={el => scrollWithOffset(el)}>
+                Furniture
+              </Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
