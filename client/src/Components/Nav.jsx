@@ -77,10 +77,10 @@ class Nav extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/contact/#contact">Contact</Link>
+                <Link to="/assembly">Assembly</Link>
               </li>
               <li>
-                <Link to="#">About</Link>
+                <Link to="/contact/#contact">Contact</Link>
               </li>
             </ul>
           </div>
