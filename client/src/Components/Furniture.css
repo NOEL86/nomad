@@ -1,4 +1,6 @@
-#furnitureRow {
+#furnitureRow,
+#pRow,
+#dRow {
   /* margin-top: 20% !important; */
   margin-left: 10% !important;
   padding-bottom: 5%;

@@ -378,6 +378,390 @@ class Furniture extends Component {
             </div>
           </div>
         </div>
+        <div id="pRow" className="row">
+          <div className="col s12 m12 l12">
+            <h5 id="fLink">Premium Upgrade</h5>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12">
+            <div className="row">
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Upgrades/PecosLitePreimum.jpg"
+                    alt="Mission Bed"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Upgrades/RanchPreimum.jpg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Upgrades/TwinMapleUpgrade.jpeg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Upgrades/CotPremiumDay2.jpg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="dRow" className="row">
+          <div className="col s12 m12 l12">
+            <h5 id="pLink">Cot Size Daybeds</h5>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12">
+            <div className="row">
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Daybeds/CotMissionPremiumRails.jpeg"
+                    alt="Cot Mission Premium Rails"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Daybeds/CotOakRainbowDaybed.jpeg"
+                    alt="Rainbow Daybed"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Daybeds/CotOakRainbowTable.jpeg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Daybeds/CotOakMissionTableDrawers.jpeg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Daybeds/CotMissionPremiumRails.jpeg"
+                    alt="Taos Bed + Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="aRow" className="row">
+          <div className="col s12 m12 l12">
+            <h5 id="pLink">Accessories</h5>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12">
+            <div className="row">
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/one.jpg"
+                    alt="Drawers"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/bookshelf.jpg"
+                    alt="Rainbow Daybed"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/drawerShelf.jpeg"
+                    alt="Drawer Shelf"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/threeShelf.jpg"
+                    alt="Three Shelves"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Vista Mesa Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/tablesSmall.jpg"
+                    alt="Pecos End Tables"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Pecos End Tables</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/OakStool.jpg"
+                    alt="Sandia Stool Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Pecos End Tables</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/PlacitasTable.jpg"
+                    alt="Placitas Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Placitas End Table</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/MissionEnd.jpeg"
+                    alt="Mission Table"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Mission End Table</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/underBedDrawers.jpg"
+                    alt="Drawers Under-bed"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>Under-bed Drawers</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m4 l4">
+                <div className="imageContainer">
+                  <img
+                    id="bedImg"
+                    src="../images/Accessories/4Poster.jpg"
+                    alt="4 Poster Bed"
+                  />
+                  <div className="overlay">
+                    <div className="text">
+                      {" "}
+                      <div className="row">
+                        <h6>4 Poster Bed</h6>
+                        <h6>Price: $255</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

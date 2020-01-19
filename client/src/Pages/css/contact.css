@@ -1,8 +1,15 @@
 #contactInfo {
   margin-top: 15%;
   text-align: center;
-  min-height: 100vh;
+  min-height: 55vh;
   font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(70, 38, 16);
+  line-height: normal;
+}
+
+#contactInfo a {
+  color: rgb(70, 38, 16) !important;
 }
 
 @media only screen and (max-width: 600px) {

@@ -38,13 +38,19 @@ class Nav extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Premium">Premium Upgrade</Link>
+            <Link to="/#pRow" scroll={el => scrollWithOffset(el)}>
+              Premium Upgrade
+            </Link>
           </li>
           <li>
-            <Link to="/Daybeds">Cot Size Daybeds</Link>
+            <Link to="/#dRow" scroll={el => scrollWithOffset(el)}>
+              Cot Size Daybeds
+            </Link>
           </li>
           <li>
-            <Link to="/Accessories">Accessories</Link>
+            <Link to="/#aRow" scroll={el => scrollWithOffset(el)}>
+              Accessories
+            </Link>
           </li>
         </ul>
 
@@ -71,9 +77,7 @@ class Nav extends Component {
                 </Link>
               </li>
               <li>
-                <Link to="/contact/#contact" scroll={el => top(el)}>
-                  Contact
-                </Link>
+                <Link to="/contact/#contact">Contact</Link>
               </li>
               <li>
                 <Link to="#">About</Link>
@@ -88,13 +92,19 @@ class Nav extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/Premium">Premium Upgrade</Link>
+              <Link to="/#pRow" scroll={el => scrollWithOffset(el)}>
+                Premium Upgrade
+              </Link>
             </li>
             <li>
-              <Link to="/Daybeds">Cot Size Daybeds</Link>
+              <Link to="/#dRow" scroll={el => scrollWithOffset(el)}>
+                Cot Size Daybeds
+              </Link>
             </li>
             <li>
-              <Link to="/Accessories">Accessories</Link>
+              <Link to="/#aRow" scroll={el => scrollWithOffset(el)}>
+                Accessories
+              </Link>
             </li>
           </ul>
         </nav>
